@@ -6,6 +6,18 @@ const secondPassword = document.getElementById("password-two")
 const generatePasswordsBtn = document.getElementById("generate-passwords")
 generatePasswordsBtn.addEventListener("click",generatePassword)
 
+// To Copy firstPassword to Clipboard
+firstPassword.addEventListener("click", function () {
+    let clipText1 = firstPassword.textContent;
+    navigator.clipboard.writeText(clipText1)
+})
+
+// To Copy secondPassword to Clipboard
+secondPassword.addEventListener("click", function () {
+    let clipText2 = secondPassword.textContent;
+    navigator.clipboard.writeText(clipText2)
+})
+
 function generatePassword() {
     let passwordLength = 15
     let passwordString1 = ""
