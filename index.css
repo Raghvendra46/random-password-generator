@@ -92,13 +92,16 @@ hr {
 
 
 .pass-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #273549;
     width: 47%;
     height: 21px;
     padding: 10px 0;
     border-radius: 5px;
-    text-align: center;
     color: #55F991;
+    font-size: 12px;
 }
 
 
@@ -113,6 +116,7 @@ hr {
     }
 
     button {
+        margin: 25px 0 20px 0;
         font-size: 15px;
     }
 
@@ -120,4 +124,11 @@ hr {
         font-size: 12px;
     }
 
+    .pass-div {
+        height: 16px;
+    }
+
+    #passwords-container {
+        margin: 15px 0 0 0;
+    }
 }
