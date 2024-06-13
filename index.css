@@ -3,23 +3,22 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    height: 98vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
 
 #main-container {
-    max-width: 50%;
-    background-color: #1F2937;
-    border-radius: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
 #ui {
-    margin: 100px;
+    background-color: #1F2937;
+    padding: 5%;
+    border-radius: 10px;
+
 }
 
 
