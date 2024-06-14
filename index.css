@@ -102,7 +102,6 @@ hr {
     padding: 10px 0;
     border-radius: 5px;
     color: #55F991;
-    font-size: 12px;
 }
 
 
@@ -127,6 +126,7 @@ hr {
 
     .pass-div {
         height: 16px;
+        font-size: 12px;
     }
 
     #passwords-container {
